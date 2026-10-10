@@ -55,6 +55,28 @@ h1 {
     font-size: 19px;
     line-height: 1.8;
     margin-bottom: 30px;
+    background-color: #853a59;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px auto;
+    padding: 15px;
+    box-shadow: 0 5px 15px rgba(224, 13, 112, 0.411);
+
+
+    /*box-sizing: border-box;
+    width: 90%;
+    max-width: 350px;
+    margin: 25px auto;
+    padding: 25px;
+    background: #fff7fa;
+    color: #8b3a5c;
+    border: 2px dashed #e879ad;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(232, 121, 173, 0.2);
+    animation: popIn 0.4s ease;
+    */
+    
 }
 
 .invitation {
@@ -145,6 +167,7 @@ button:hover {
   border-radius: 15px;
   text-decoration: none;
   cursor: pointer;
+  box-shadow: 0 5px 15px rgba(251, 11, 123, 0.685);
 }
 
 .button:hover {
@@ -243,6 +266,7 @@ button:hover {
     border-radius: 8px;
     transform: none;
     transition: transform 0.25s ease, box-shadow 0.25s ease;
+    box-shadow: 0 5px 15px rgba(224, 13, 112, 0.411);
 }
 
 .photo-collage .photo:hover {
